@@ -1,4 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+@media (max-width:992px){
+    .social a{
+        font-size:4em;
+        padding:.2rem;
+    }
+
+}
+@media (max-width:767px){
+    .carousel-caption{
+     
+     
+    }
+    .carousel-caption h1{
+        
+        font-size: 100%;
+    }
+    .carousel-caption h2{
+       
+       font-size: 75%;
+       font-weight: 400;
+       padding: 2rem;
+    }
+    .carousel-caption .btn{
+        font-size: 95%;
+        padding: 6px 14px;
+    }
+    .social a{
+        font-size:2em;
+        padding:1.2rem;
+    }
+}
+@media (max-width:576px){
+
+}
+
+
+
 html,body{
     height: 100%;
     width: 100%;
@@ -14,6 +53,8 @@ html,body{
 .nav-link{
     font-size: 1.1em !important;
 }
+
+
 .carousel-inner img{
     height: 100%;
     width: 100%;
@@ -21,8 +62,8 @@ html,body{
 
 .carousel-caption{
     position: absolute;
-    top: 50%;  
-    
+    left:50%;
+   top:50%;    
 }
 .carousel-caption h1{
     
@@ -32,16 +73,6 @@ html,body{
 .carousel-caption h2{
    
     text-shadow: 1px 1px 10px #000;
-}
-
-
-.btn{
-    background-color: #6648b1;
-    border:1px solid #6648b1 ;
-}
-.btn:hover{
-    background-color: #6648b1;
-    border:1px solid #6648b1 ;
 }
 
 .fas{
@@ -79,11 +110,13 @@ html,body{
 
 .padding{
 padding-bottom: 2rem;
+padding-top: 2rem; 
 }
 
 .card{
     padding-top: 2rem;
     margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 hr.light{
@@ -94,8 +127,44 @@ span>img{
     height: 50px;
     width:50px;
 }
+.call{
+    height:150px;
+    width:100%;
+    background-image: url('img/call.jpg');
+}
+.logos span>img{
+    height:130px;
+    width:130px;
+    padding: 10px;
+}
+
+.test .carousel-item{
+    height:400px;
+    width:100%;
+}
+.test .carousel-item p{
+   color:black;
+   font-size: 30px;
+}
+.jumbotron .comp{
+    font-size: 20px;
+}
+.ref img{
+    width:300px;
+    height:375px;
+}
+.ref div .d:hover{
+    transform: scale(1.05);
+    transition-property:transform;
+    transition: 300ms ease-in-out; 
+}
 .footer,.footer-bar{
     background-color: #3f3f3f;
+    color: #d5d5d5;
+}
+
+.footer div a{
+    font-size: 25px;
     color: #d5d5d5;
 }
 
